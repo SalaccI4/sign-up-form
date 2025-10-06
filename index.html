@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class = "right-bar">
+        <div class = "contrast-bar">
+            <img class = "logo" src="img/odin-lined.png" alt="Picture of The Odin Project's Logo">
+            <p class = "logo-text">ODIN</p>
+        </div>
+        <p class="img-credit">Photo by&nbsp;<a href="https://unsplash.com/@haliewestphoto" target="_blank" rel="noopener noreferrer">Halie West</a>&nbsp;on&nbsp;<a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA" target="_blank" rel="noopener noreferrer">Unsplash</a></p>
+    </div>
+
+    <div class="left-bar">
+        <div class="top">
+            <div class="top-container">
+                <p class="top-text">This is not a real service! You know you need something like this in your life to help you realize
+                    your deepest dreams.
+                    Sign up <em>now</em> to get started.<br><br> You <em>know</em> you want to.</p>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="middle-container">
+                <p class="middle-title">Let's do this!</p>
+                <form id = "signup-box" action="#" method="get">
+                    <div class="signup-segment">
+                        <label for="first-name">First Name: <br></label>
+                        <input type="text" id="first-name" name="first-name" placeholder="Jane" required>
+                    </div>
+                    
+
+                    <div class="signup-segment">
+                        <label for="last-name">Last Name: <br></label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Smith" required>
+                    </div>
+
+                    <div class="signup-segment">
+                        <label for="email">Email: <br></label>
+                        <input type="email" id="email" name="email" placeholder="jsmith2@gmail.com" required>
+                    </div>
+
+                    <div class="signup-segment">
+                        <label for="phone-number">Phone Number: <br></label>
+                        <input type="tel" id="phone-number" name="phone-number" placeholder="999-999-9999" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    </div>
+
+                    <div class="signup-segment">
+                        <label for="password">Password: <br></label>
+                        <input type="password" id="password" name="password" placeholder="********" minlength="8" required>
+                    </div>
+
+                    <div class="signup-segment">
+                        <label for="confirm-password">Confirm Password: <br></label>
+                        <input type="password" id="confirm-password" name="confirm-password" placeholder="********" minlength="8" required>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="bottom-container">
+                <button class="account-button" type="submit" form="signup-box">Create Account</button>
+                <p class="account-text">Already have an account? Log In</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
