@@ -48,7 +48,7 @@ body{
     width: 40vw;
     height: 100vh;
     background-color: var(--rightbar-bg);
-    background-image: url(/img/halie-west-25xggax4bSA-unsplash.jpg);
+    background-image: url(./img/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
